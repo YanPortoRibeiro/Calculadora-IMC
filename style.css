@@ -3,16 +3,16 @@ body{
 }
 selection{
     display: flex;
-    width: 100vw;
-    height: 50vw;
+    width: 90vw;
+    height: 45vw;
     justify-content: center;  
 }
 .container{
     display: flex;
     flex-direction: column;
     background: #ffa500;
-    width: 400px;
-    height: 600px;
+    width: 350px;
+    height: 550px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 20px;
@@ -65,13 +65,9 @@ selection{
     box-sizing: border-box;
     user-select: none;
 }
-footer{
-    color: black;
-    font-style: italic;
-    font: 15pt;
-    clear: both;
-    position: relative;
-    height: 200px;
-    margin-top: 500px;
+footer  { /* Estilo do Rodapé */
+    color: white;
     text-align: center;
+    font-style: italic;
+    font-size: 20px;
 }
